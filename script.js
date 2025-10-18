@@ -9,9 +9,9 @@ toggleButton.addEventListener('click', () => {
     conversionContainer.classList.toggle('dark-conversion-container')
   })
   if (toggleButton.innerText === 'switch to dark mode') {
-    toggleButton.innerText = 'Light Mode'
+    toggleButton.innerText = 'Switch to Light Mode'
   }else {
-    toggleButton.innerText = 'Dark Mode'
+    toggleButton.innerText = 'Switch to Dark Mode'
   }
   document.body.classList.toggle('dark-body')
 })
